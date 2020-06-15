@@ -6,7 +6,7 @@ let fakeToolsRepository: FakeToolsRepository;
 let createTool: CreateToolService;
 let listTools: ListToolsService;
 
-describe('DeleteTool', () => {
+describe('ListTools', () => {
   beforeEach(() => {
     fakeToolsRepository = new FakeToolsRepository();
     createTool = new CreateToolService(fakeToolsRepository);
