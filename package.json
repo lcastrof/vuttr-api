@@ -9,11 +9,16 @@
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
     "test": "jest"
   },
+  "_moduleAliases": {
+    "@modules":  "dist/modules",
+    "@shared": "dist/shared"
+  },
   "dependencies": {
     "@types/swagger-ui-express": "^4.1.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
+    "module-alias": "^2.2.2",
     "pg": "^8.2.1",
     "reflect-metadata": "^0.1.13",
     "swagger-ui-express": "^4.1.4",
